@@ -24,10 +24,6 @@ void insert ( struct Node ** nodePtr, int value )
 	{
 		insert ( &(* nodePtr)->right, value );
 	}
-	else
-	{
-		return;
-	}
 }
 
 bool lookup ( struct Node ** nodePtr, int value )
